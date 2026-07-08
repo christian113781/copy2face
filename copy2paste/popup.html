@@ -38,18 +38,49 @@
 
     <div class="divider"></div>
 
-    <button class="menu-item" id="shortcut-btn">
+    <button class="menu-item" id="pick-color-btn">
       <span class="icon">
         <svg viewBox="0 0 20 20" width="19" height="19" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="5" width="16" height="10" rx="2" fill="#eef1f7" stroke="#8a94a6" stroke-width="1.2"/>
-          <rect x="4.2" y="7.2" width="1.7" height="1.7" rx="0.4" fill="#8a94a6"/>
-          <rect x="7.4" y="7.2" width="1.7" height="1.7" rx="0.4" fill="#8a94a6"/>
-          <rect x="10.6" y="7.2" width="1.7" height="1.7" rx="0.4" fill="#ff9f43"/>
-          <rect x="13.8" y="7.2" width="1.4" height="1.7" rx="0.4" fill="#8a94a6"/>
-          <rect x="5.1" y="10.7" width="9.8" height="1.6" rx="0.8" fill="#4f8cff"/>
+          <defs>
+            <linearGradient id="dropGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ff6b6b"/>
+              <stop offset="0.5" stop-color="#4f8cff"/>
+              <stop offset="1" stop-color="#3bb273"/>
+            </linearGradient>
+          </defs>
+          <g transform="rotate(45 10 10)">
+            <rect x="8.4" y="1.5" width="3.2" height="8.5" rx="1.4" fill="#5b6270"/>
+            <rect x="7.9" y="9.7" width="4.2" height="2.6" rx="0.8" fill="#8a94a6"/>
+          </g>
+          <path d="M6.5 11.5c1.9 0 3.4 1.5 3.4 3.3 0 1.9-1.5 3.4-3.4 3.4S3.1 16.7 3.1 14.8c0-1.8 1.5-3.3 3.4-3.3z" fill="url(#dropGrad)"/>
         </svg>
       </span>
-      <span>View/change shortcut</span>
+      <span>Pick a Color (Page)</span>
+    </button>
+
+    <div class="divider"></div>
+
+    <button class="menu-item" id="analyze-colors-btn">
+      <span class="icon">
+        <svg viewBox="0 0 20 20" width="19" height="19" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="6.2" cy="6.5" r="2.4" fill="#ff6b6b"/>
+          <circle cx="13.8" cy="6.5" r="2.4" fill="#4f8cff"/>
+          <circle cx="10" cy="13" r="2.4" fill="#3bb273"/>
+        </svg>
+      </span>
+      <span>Webpage Color Analyzer</span>
+    </button>
+
+    <div class="divider"></div>
+
+    <button class="menu-item" id="settings-btn">
+      <span class="icon">
+        <svg viewBox="0 0 20 20" width="19" height="19" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 6.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4z" fill="none" stroke="#8a94a6" stroke-width="1.5"/>
+          <path d="M16.6 10.9c.03-.3.05-.6.05-.9s-.02-.6-.05-.9l1.6-1.25a.55.55 0 0 0 .13-.7l-1.5-2.6a.55.55 0 0 0-.67-.24l-1.9.76a6.5 6.5 0 0 0-1.55-.9l-.29-2.01A.55.55 0 0 0 12 1.7H9a.55.55 0 0 0-.55.47l-.29 2.01c-.56.22-1.08.53-1.55.9l-1.9-.76a.55.55 0 0 0-.67.24l-1.5 2.6a.55.55 0 0 0 .13.7l1.6 1.25c-.03.3-.05.6-.05.9s.02.6.05.9l-1.6 1.25a.55.55 0 0 0-.13.7l1.5 2.6c.14.24.43.34.67.24l1.9-.76c.47.37.99.68 1.55.9l.29 2.01c.04.27.28.47.55.47h3c.27 0 .5-.2.55-.47l.29-2.01c.56-.22 1.08-.53 1.55-.9l1.9.76c.24.1.53 0 .67-.24l1.5-2.6a.55.55 0 0 0-.13-.7l-1.6-1.25z" fill="none" stroke="#ff9f43" stroke-width="1.1" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span>Settings</span>
     </button>
 
     <div class="divider"></div>

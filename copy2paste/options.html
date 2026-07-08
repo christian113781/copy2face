@@ -12,8 +12,8 @@
       <h1>Copy2Paste</h1>
     </div>
 
-    <p>Copy2Paste has two selection modes, each with its own shortcut. Use
-      the toolbar menu, or these keys, to start dragging a selection box.</p>
+    <p>Copy2Paste has a few actions, each with its own shortcut. Use the
+      toolbar menu, or these keys, to trigger them directly.</p>
 
     <div class="shortcut-box">
       <div>
@@ -29,15 +29,23 @@
       </div>
     </div>
 
+    <div class="shortcut-box">
+      <div>
+        <div class="label">Pick a color (page)</div>
+        <div id="shortcut-color" class="key">Loading&hellip;</div>
+      </div>
+    </div>
+
     <button id="change-btn">Change shortcuts</button>
 
     <p class="hint">
-      Defaults are <kbd>Alt</kbd>+<kbd>0</kbd> for text and
-      <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>0</kbd> for image. Chrome manages
-      all extension shortcuts from one settings page for security reasons
-      &mdash; the button above takes you straight there. Once it opens, find
-      <strong>Copy2Paste</strong> in the list and click the pencil icon next
-      to either shortcut to record a new key combination.
+      Defaults are <kbd>Alt</kbd>+<kbd>0</kbd> for text,
+      <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>0</kbd> for image, and
+      <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> for the color picker.
+      Chrome manages all extension shortcuts from one settings page for
+      security reasons &mdash; the button above takes you straight there.
+      Once it opens, find <strong>Copy2Paste</strong> in the list and click
+      the pencil icon next to any shortcut to record a new key combination.
     </p>
   </div>
   <script src="options.js"></script>
