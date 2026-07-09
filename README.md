@@ -1,6 +1,6 @@
 # Copy2Paste
 
-(assets/banner.png)
+![Copy2Paste banner](assets/banner.png)
 
 A browser extension that lets you drag-select any area of a webpage —
 like Lightshot — and copy what's there straight to your clipboard, as
