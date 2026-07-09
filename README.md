@@ -1,5 +1,7 @@
 # Copy2Paste
 
+![Copy2Paste banner](assets/banner.png)
+
 A browser extension that lets you drag-select any area of a webpage —
 like Lightshot — and copy what's there straight to your clipboard, as
 text (with on-device OCR for text baked into images/video) or as an
@@ -45,6 +47,8 @@ extension:
 
 ## Usage
 
+<img src="assets/popup-mockup.png" alt="Copy2Paste toolbar menu" width="320" align="right" />
+
 Click the toolbar icon to open the menu, or skip it entirely with a
 keyboard shortcut:
 
@@ -58,6 +62,8 @@ Drag a box, release to copy, `Esc` to cancel anytime. Shortcuts are
 remappable from the extension's **Settings** page (right-click the
 toolbar icon → Options), which links directly to Chrome's shortcut
 editor at `chrome://extensions/shortcuts`.
+
+<br clear="right"/>
 
 ## How it works
 
@@ -105,6 +111,7 @@ copy2paste/
 ├── help.html               # In-extension usage guide
 ├── offscreen.html / .js    # Hidden document that runs the Tesseract.js OCR engine
 ├── vendor/tesseract/       # Bundled Tesseract.js engine + English language data
+├── assets/                 # README images
 └── icons/
 ```
 
