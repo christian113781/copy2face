@@ -46,7 +46,7 @@ extension:
 
 ## Usage
 
-<img src="assets/popup-mockup.png" alt="Copy2Paste toolbar menu" width="320" align="right" />
+<!-- <img src="assets/popup-mockup.png" alt="Copy2Paste toolbar menu" width="320" align="right" /> -->
 
 Click the toolbar icon to open the menu, or skip it entirely with a
 keyboard shortcut:
